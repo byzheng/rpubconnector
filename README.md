@@ -26,4 +26,10 @@ Tiddlers with tag `bibtex-entry` will be added the following fields
 * `scholar-cid` for unique id in the search list of Scholar.  
 * `scholar-cites` for unique id in the author profile of Scholar which depends on whether there is a citation.
 
+## Usage
+
+```r
+scopus_eid() # obtain eid from scopus.com
+scholar_ids() # obtain cid and cits from scholar.google.com
+```
 
