@@ -1,0 +1,32 @@
+Package: rpubconnector
+Type: Package
+Title: Retrieve information from scopus.com and scholar.google.com
+Version: 0.1.0
+Author: Bangyou Zheng
+Maintainer: Bangyou Zheng <zheng.bangyou@gmail.com>
+Description: 'TiddlyWiki' is a unique non-linear notebook for capturing, organising 
+                 and sharing complex information. 'rpubconnector' retrieves information 
+                 from 'Scopus' <https://www.scopus.com/> and 'Google Scholar' <https://scholar.google.com> 
+                 into 'TiddlyWiki' <https://tiddlywiki.com>.
+License: MIT + file LICENSE
+URL: https://rpubconnector.bangyou.me/, https://github.com/byzheng/rpubconnector, https://byzheng.github.io/rpubconnector/
+BugReports: https://github.com/byzheng/rpubconnector/issues
+Encoding: UTF-8
+LazyData: true
+  Depends:
+    R (>= 4.2.0)
+Imports:
+   settings,
+   purrr,
+   dplyr,
+   rlang,
+   rscopus,
+   rtiddlywiki,
+   httr,
+   stats,
+   httr2,
+   xml2
+Remotes:
+    byzheng/rtiddlywiki,
+    muschellij2/rscopus
+RoxygenNote: 7.3.1
